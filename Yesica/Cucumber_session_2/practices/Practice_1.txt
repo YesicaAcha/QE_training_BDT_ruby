@@ -1,0 +1,20 @@
+********************************************************************************
+D:\Cursos\QE_training_BDT_ruby\Yesica\Cucumber_session_2\practices\cucumber\feat
+ures>cucumber download_with_conflicts.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+0 scenarios
+0 steps
+0m0.000s
+
+*********************************************************************************
+D:\Cursos\QE_training_BDT_ruby\Yesica\Cucumber_session_2\practices\cucumber\feat
+ures>cucumber download_with_conflicts.feature --dry-run
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+0 scenarios
+0 steps
+
+*********************************************************************************
+Which one is the difference between both executions?
+The command with --dry-run does not execute the file, so, we can not see the time that the execution last. It reviews if the Gherkin is valid.
