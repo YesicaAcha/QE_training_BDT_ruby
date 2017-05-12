@@ -1,0 +1,76 @@
+=begin
+Cucumber Session 2 - Practice 1 - Ruby gem installation - Slide 2
+Author: Yesica Acha	
+=end
+
+Practice
+
+=============================================================================================================================
+1. Install cucumber gem.
+
+D:\Cursos\QE_training_BDT_ruby\Yesica\Final_project\BDT_ruby_framework>gem install cucumber
+Fetching: cucumber-2.4.0.gem (100%)
+Successfully installed cucumber-2.4.0
+Parsing documentation for cucumber-2.4.0
+Installing ri documentation for cucumber-2.4.0
+Done installing documentation for cucumber after 6 seconds
+1 gem installed
+
+=============================================================================================================================
+2. List cucumber version installed
+
+D:\Cursos\QE_training_BDT_ruby\Yesica\Final_project\BDT_ruby_framework>cucumber --version
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows 2.4.0
+
+D:\Cursos\QE_training_BDT_ruby\Yesica\Final_project\BDT_ruby_framework>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.8)
+builder (3.2.3)
+bundler (1.14.6)
+cucumber (2.4.0)
+cucumber-core (1.5.0)
+cucumber-wire (0.0.1)
+did_you_mean (1.0.0)
+diff-lcs (1.3)
+gherkin (4.1.3)
+io-console (0.4.5)
+json (1.8.3)
+json_spec (1.1.5)
+minitest (5.8.5, 5.8.3)
+multi_json (1.12.1)
+multi_test (0.1.2)
+net-telnet (0.1.1)
+power_assert (0.2.6)
+psych (2.1.0, 2.0.17)
+rake (10.4.2)
+rdoc (4.2.1)
+rspec (3.6.0)
+rspec-core (3.6.0)
+rspec-expectations (3.6.0)
+rspec-mocks (3.6.0)
+rspec-support (3.6.0)
+test-unit (3.1.5)
+
+=============================================================================================================================
+3. Perform any search in your gems installed
+
+D:\Cursos\QE_training_BDT_ruby\Yesica\Final_project\BDT_ruby_framework>gem search -l cucumber
+
+*** LOCAL GEMS ***
+
+cucumber (2.4.0)
+cucumber-core (1.5.0)
+cucumber-wire (0.0.1)
+
+=============================================================================================================================
+4. Uninstall the gem
+
+D:\Cursos\QE_training_BDT_ruby\Yesica\Final_project\BDT_ruby_framework>gem uninstall cucumber
+Remove executables:
+        cucumber
+
+in addition to the gem? [Yn]  y
+Removing cucumber
+Successfully uninstalled cucumber-2.4.0
